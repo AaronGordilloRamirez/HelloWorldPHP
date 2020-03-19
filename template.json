@@ -1,0 +1,84 @@
+{
+  "lang": "es",
+  "title": "My example",
+  "logo": "",
+  "link": [
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": ""
+    },
+    {
+      "rel": "icon",
+      "sizes": "32x32",
+      "type": "image/png",
+      "href": ""
+    },
+    {
+      "rel": "icon",
+      "sizes": "16x16",
+      "type": "image/png",
+      "href": ""
+    },
+    {
+      "rel": "mask-icon",
+      "color": "#007be8",
+      "href": ""
+    },
+    {
+      "rel": "manifest",
+      "href": ""
+    }
+  ],
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    },
+    {
+      "name": "apple-mobile-web-app-title",
+      "content": ""
+    },
+    {
+      "name": "application-name",
+      "content": ""
+    },
+    {
+      "name": "apple-mobile-web-app-capable",
+      "content": "yes"
+    },
+    {
+      "name": "apple-touch-fullscreen",
+      "content": "yes"
+    },
+    {
+      "name": "apple-mobile-web-app-status-bar-style",
+      "content": "default"
+    },
+    {
+      "name": "msapplication-TileColor",
+      "content": ""
+    },
+    {
+      "name": "theme-color",
+      "content": ""
+    },
+    {
+      "name": "description",
+      "content": "My first class page"
+    },
+    {
+      "name": "author",
+      "content": "Cristian Yosafat"
+    }
+  ],
+  "css": [
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+  ],
+  "js": [
+  ]
+}
