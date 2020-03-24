@@ -39,6 +39,8 @@ if(array_key_exists('nombre', $_POST)){
     $html_alert = $html->alert('Mensaje', 'Datos registrados', 'success');
   }
   $content .= $html->div($html_alert, ['class' => 'mt-4']);
+  echo $content;
+  exit;
 }
 
 // 2) ------------------------ ELIMINAR VALOR DE SESIÓN ------------------------
@@ -81,7 +83,7 @@ $input_apellido_m = $html->input(['name' => 'apellido_m', 'value' => $apellido_m
 $input_telefono = $html->input(['name' => 'telefono', 'value' => $telefono, 'type' => 'text', 'placeholder' => 'Teléfono', 'class' => $input_class]);
 
 //BUTTON - HTML
-$btn_registrar = $html->button('Registrar', ['class' => 'btn btn-primary btn-block mt-4']);
+$btn_registrar = $html->button('Registrar', ['id' => 'btn_registrar', 'class' => 'btn btn-primary btn-block mt-4']);
 
 //CREAR TABLA HTML
 if(empty($array_td))$html_table = '';
@@ -102,7 +104,11 @@ $html_row_principal = $html->row([
   ['html' => '', 'col' => 12, 'sm' => 12, 'md' => 6, 'lg' => 6, 'xl' => 6],
   ['html' => $btn_registrar, 'col' => 12, 'sm' => 12, 'md' => 6, 'lg' => 6, 'xl' => 6],
 ]);
-$content .= $html->form($html_row_principal, ['method' => 'post']);
+
+$content .= $html->div('', ['id' => 'response']);
+
+$content .= $html->div($html_row_principal, ['id' => 'form_registrar']);
+
 
 //HTML DE TABLA A MOSTRAR
 $content .=  $html->row([
