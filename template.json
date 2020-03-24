@@ -1,6 +1,6 @@
 {
-  "lang": "es",
-  "title": "My example",
+  "lang": "",
+  "title": "",
   "logo": "",
   "link": [
     {
@@ -68,17 +68,18 @@
     },
     {
       "name": "description",
-      "content": "My first class page"
+      "content": ""
     },
     {
       "name": "author",
-      "content": "Cristian Yosafat"
+      "content": ""
     }
   ],
   "css": [
-    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css",
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
   ],
   "js": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+    "http://localhost:9000/app.js"
   ]
 }
